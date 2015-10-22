@@ -1,5 +1,5 @@
 
-
+<h2>記事一覧</h2>
 
 
 <?php foreach($articles as $article){ ?>

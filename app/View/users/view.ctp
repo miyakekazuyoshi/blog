@@ -1,0 +1,10 @@
+<dl>
+	<dt>名前</dt>
+		<dd><?=$user['User']['name']?></dd>
+	<dt>パスワード</dt>
+		<dd><?=$user['User']['password']?></dd>
+	<dt>年齢</dt>
+		<dd><?=$user['User']['age']?></dd>
+	<dt>性別</dt>
+		<dd><?=$user['User']['gender']?></dd>
+</dl>

@@ -1,0 +1,10 @@
+<dl>
+	<dt>タイトル</dt>
+		<dd><?=$comment['Comment']['title']?></dd>
+	<dt>本文</dt>
+		<dd><?=$comment['Comment']['body']?></dd>
+	<dt>作成時間</dt>
+		<dd><?=$comment['Comment']['created']?></dd>
+	<dt>編集時間</dt>
+		<dd><?=$comment['Comment']['modifled']?></dd>
+</dl>

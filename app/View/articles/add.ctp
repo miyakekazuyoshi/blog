@@ -1,4 +1,4 @@
-
+<h2>記事の追加</h2>
 <?=$this->Form->create();?>
 <?=$this->Form->input('title');?>
 <?=$this->Form->input('body');?>

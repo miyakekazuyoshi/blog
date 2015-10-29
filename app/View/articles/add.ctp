@@ -5,5 +5,9 @@
 <?=$this->Form->input('created');?>
 <?=$this->Form->input('modifled');?>
 
+
+<?=$this->Form->file('image');?>
+
+<?=$this->Form->submit('画像を添付');?>
 <?=$this->Form->submit('送信');?>
 <?=$this->Form->end()?>

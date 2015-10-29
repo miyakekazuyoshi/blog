@@ -31,4 +31,17 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+	public function beforFilter(){
+		if($this->isAdmin()){
+			if(empty($this->Session->read('user'))){
+				$this->redirect(['Controller'=>'login']);				
+			}
+		}
+
+	}
+
+	public function isAdmin(){
+		return isset($this->params['prefix'])&&$this->parms['prefix']=='admin';
+	}
 }
